@@ -1,0 +1,43 @@
+@import '_colors.scss';
+
+.navStyle{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper{
+    width: 100%;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.04)
+}
+
+.navContainer {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 70px;
+    margin: 0 auto;
+    max-width: 1316px;
+
+    .nav-logo{
+        display: inline-block;
+
+        a{
+            display: inline-flex;
+            margin: 15px 0;;
+        }
+    }
+}
+
+.menus{
+column-gap: 54px;
+list-style: none;
+display: flex;
+justify-content: right;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.menu-items{
+    list-style: none;
+}
